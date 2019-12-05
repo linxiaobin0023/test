@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178CA158238B82DB00D757FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA157238B82DB00D757FA /* AppDelegate.m */; };
+		178CA15B238B82DB00D757FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA15A238B82DB00D757FA /* ViewController.m */; };
+		178CA15E238B82DB00D757FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CA15C238B82DB00D757FA /* Main.storyboard */; };
+		178CA160238B82DB00D757FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178CA15F238B82DB00D757FA /* Assets.xcassets */; };
+		178CA163238B82DB00D757FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178CA161238B82DB00D757FA /* LaunchScreen.storyboard */; };
+		178CA166238B82DB00D757FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA165238B82DB00D757FA /* main.m */; };
+		178CA18F238BDC5F00D757FA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 178CA18E238BDC5F00D757FA /* libc++.tbd */; };
+		178CA193238BE20700D757FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178CA192238BE20700D757FA /* AVFoundation.framework */; };
+		178CA1A1238BE34C00D757FA /* LivingConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA19F238BE34C00D757FA /* LivingConfigModel.m */; };
+		178CA1A8238BE36D00D757FA /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1A3238BE36C00D757FA /* ImageUtils.m */; };
+		178CA1A9238BE36D00D757FA /* VideoCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1A7238BE36D00D757FA /* VideoCaptureDevice.m */; };
+		178CA1AC238BE43B00D757FA /* KYEFaceBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1AB238BE43B00D757FA /* KYEFaceBaseView.m */; };
+		178CA1B2238CC97A00D757FA /* KYELivenessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1B1238CC97A00D757FA /* KYELivenessView.m */; };
+		178CA1C2238CCBD500D757FA /* IDLFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178CA1BE238CCBD500D757FA /* IDLFaceSDK.framework */; };
+		178CA1C3238CCBD500D757FA /* idl-license.face-ios in Resources */ = {isa = PBXBuildFile; fileRef = 178CA1BF238CCBD500D757FA /* idl-license.face-ios */; };
+		178CA1C4238CCBD500D757FA /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 178CA1C0238CCBD500D757FA /* com.baidu.idl.face.model.bundle */; };
+		178CA1C5238CCBD500D757FA /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 178CA1C1238CCBD500D757FA /* com.baidu.idl.face.faceSDK.bundle */; };
+		178CA1C8238CD78200D757FA /* RemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1C7238CD78100D757FA /* RemindView.m */; };
+		178CA1CB238D087F00D757FA /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1CA238D087F00D757FA /* CircleView.m */; };
+		178CA1D0238D23D100D757FA /* KYEBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CA1CF238D23D100D757FA /* KYEBrightness.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178CA153238B82DB00D757FA /* faceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178CA156238B82DB00D757FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		178CA157238B82DB00D757FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		178CA159238B82DB00D757FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		178CA15A238B82DB00D757FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		178CA15D238B82DB00D757FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178CA15F238B82DB00D757FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178CA162238B82DB00D757FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178CA164238B82DB00D757FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178CA165238B82DB00D757FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		178CA18C238BDC2400D757FA /* FaceParameterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceParameterConfig.h; sourceTree = "<group>"; };
+		178CA18E238BDC5F00D757FA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		178CA190238BE1FA00D757FA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		178CA192238BE20700D757FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		178CA19F238BE34C00D757FA /* LivingConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingConfigModel.m; sourceTree = "<group>"; };
+		178CA1A0238BE34C00D757FA /* LivingConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingConfigModel.h; sourceTree = "<group>"; };
+		178CA1A3238BE36C00D757FA /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		178CA1A4238BE36C00D757FA /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		178CA1A6238BE36D00D757FA /* VideoCaptureDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureDevice.h; sourceTree = "<group>"; };
+		178CA1A7238BE36D00D757FA /* VideoCaptureDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureDevice.m; sourceTree = "<group>"; };
+		178CA1AA238BE43B00D757FA /* KYEFaceBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYEFaceBaseView.h; sourceTree = "<group>"; };
+		178CA1AB238BE43B00D757FA /* KYEFaceBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYEFaceBaseView.m; sourceTree = "<group>"; };
+		178CA1B0238CC97A00D757FA /* KYELivenessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYELivenessView.h; sourceTree = "<group>"; };
+		178CA1B1238CC97A00D757FA /* KYELivenessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYELivenessView.m; sourceTree = "<group>"; };
+		178CA1BE238CCBD500D757FA /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDLFaceSDK.framework; sourceTree = "<group>"; };
+		178CA1BF238CCBD500D757FA /* idl-license.face-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "idl-license.face-ios"; sourceTree = "<group>"; };
+		178CA1C0238CCBD500D757FA /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
+		178CA1C1238CCBD500D757FA /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
+		178CA1C6238CD78100D757FA /* RemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindView.h; sourceTree = "<group>"; };
+		178CA1C7238CD78100D757FA /* RemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindView.m; sourceTree = "<group>"; };
+		178CA1C9238D087F00D757FA /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		178CA1CA238D087F00D757FA /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		178CA1CE238D23D100D757FA /* KYEBrightness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYEBrightness.h; sourceTree = "<group>"; };
+		178CA1CF238D23D100D757FA /* KYEBrightness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYEBrightness.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178CA150238B82DB00D757FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CA193238BE20700D757FA /* AVFoundation.framework in Frameworks */,
+				178CA1C2238CCBD500D757FA /* IDLFaceSDK.framework in Frameworks */,
+				178CA18F238BDC5F00D757FA /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178CA14A238B82DB00D757FA = {
+			isa = PBXGroup;
+			children = (
+				178CA1BD238CCBD500D757FA /* FaceSDK */,
+				178CA155238B82DB00D757FA /* faceTest */,
+				178CA154238B82DB00D757FA /* Products */,
+				178CA18D238BDC5E00D757FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		178CA154238B82DB00D757FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178CA153238B82DB00D757FA /* faceTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178CA155238B82DB00D757FA /* faceTest */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1CD238D0F9000D757FA /* Other */,
+				178CA1CC238D0F6E00D757FA /* View */,
+				178CA1A5238BE36D00D757FA /* Core */,
+				178CA1A2238BE36C00D757FA /* Utils */,
+				178CA19E238BE34C00D757FA /* Model */,
+				178CA156238B82DB00D757FA /* AppDelegate.h */,
+				178CA157238B82DB00D757FA /* AppDelegate.m */,
+				178CA159238B82DB00D757FA /* ViewController.h */,
+				178CA15A238B82DB00D757FA /* ViewController.m */,
+				178CA15C238B82DB00D757FA /* Main.storyboard */,
+				178CA15F238B82DB00D757FA /* Assets.xcassets */,
+				178CA161238B82DB00D757FA /* LaunchScreen.storyboard */,
+				178CA164238B82DB00D757FA /* Info.plist */,
+				178CA165238B82DB00D757FA /* main.m */,
+			);
+			path = faceTest;
+			sourceTree = "<group>";
+		};
+		178CA18D238BDC5E00D757FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1BC238CCB5D00D757FA /* FaceSDK */,
+				178CA192238BE20700D757FA /* AVFoundation.framework */,
+				178CA190238BE1FA00D757FA /* AVKit.framework */,
+				178CA18E238BDC5F00D757FA /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178CA19E238BE34C00D757FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1A0238BE34C00D757FA /* LivingConfigModel.h */,
+				178CA19F238BE34C00D757FA /* LivingConfigModel.m */,
+			);
+			name = Model;
+			path = "../../../../Downloads/FaceSDK-Collect-WithLiveness-iOS/FaceSDK-Collect-WithLiveness-iOS/Model";
+			sourceTree = "<group>";
+		};
+		178CA1A2238BE36C00D757FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1A4238BE36C00D757FA /* ImageUtils.h */,
+				178CA1A3238BE36C00D757FA /* ImageUtils.m */,
+				178CA1CE238D23D100D757FA /* KYEBrightness.h */,
+				178CA1CF238D23D100D757FA /* KYEBrightness.m */,
+			);
+			name = Utils;
+			path = "../../../../Downloads/FaceSDK-Collect-WithLiveness-iOS/FaceSDK-Collect-WithLiveness-iOS/Utils";
+			sourceTree = "<group>";
+		};
+		178CA1A5238BE36D00D757FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1A6238BE36D00D757FA /* VideoCaptureDevice.h */,
+				178CA1A7238BE36D00D757FA /* VideoCaptureDevice.m */,
+			);
+			name = Core;
+			path = "../../../../Downloads/FaceSDK-Collect-WithLiveness-iOS/FaceSDK-Collect-WithLiveness-iOS/Core";
+			sourceTree = "<group>";
+		};
+		178CA1BC238CCB5D00D757FA /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FaceSDK;
+			sourceTree = "<group>";
+		};
+		178CA1BD238CCBD500D757FA /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1BE238CCBD500D757FA /* IDLFaceSDK.framework */,
+				178CA1BF238CCBD500D757FA /* idl-license.face-ios */,
+				178CA1C0238CCBD500D757FA /* com.baidu.idl.face.model.bundle */,
+				178CA1C1238CCBD500D757FA /* com.baidu.idl.face.faceSDK.bundle */,
+			);
+			path = FaceSDK;
+			sourceTree = "<group>";
+		};
+		178CA1CC238D0F6E00D757FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				178CA1C6238CD78100D757FA /* RemindView.h */,
+				178CA1C7238CD78100D757FA /* RemindView.m */,
+				178CA1C9238D087F00D757FA /* CircleView.h */,
+				178CA1CA238D087F00D757FA /* CircleView.m */,
+				178CA1AA238BE43B00D757FA /* KYEFaceBaseView.h */,
+				178CA1AB238BE43B00D757FA /* KYEFaceBaseView.m */,
+				178CA1B0238CC97A00D757FA /* KYELivenessView.h */,
+				178CA1B1238CC97A00D757FA /* KYELivenessView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		178CA1CD238D0F9000D757FA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				178CA18C238BDC2400D757FA /* FaceParameterConfig.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178CA152238B82DB00D757FA /* faceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178CA169238B82DB00D757FA /* Build configuration list for PBXNativeTarget "faceTest" */;
+			buildPhases = (
+				178CA14F238B82DB00D757FA /* Sources */,
+				178CA150238B82DB00D757FA /* Frameworks */,
+				178CA151238B82DB00D757FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faceTest;
+			productName = faceTest;
+			productReference = 178CA153238B82DB00D757FA /* faceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178CA14B238B82DB00D757FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = linxiaobin;
+				TargetAttributes = {
+					178CA152238B82DB00D757FA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 178CA14E238B82DB00D757FA /* Build configuration list for PBXProject "faceTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178CA14A238B82DB00D757FA;
+			productRefGroup = 178CA154238B82DB00D757FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178CA152238B82DB00D757FA /* faceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178CA151238B82DB00D757FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CA163238B82DB00D757FA /* LaunchScreen.storyboard in Resources */,
+				178CA160238B82DB00D757FA /* Assets.xcassets in Resources */,
+				178CA1C3238CCBD500D757FA /* idl-license.face-ios in Resources */,
+				178CA15E238B82DB00D757FA /* Main.storyboard in Resources */,
+				178CA1C5238CCBD500D757FA /* com.baidu.idl.face.faceSDK.bundle in Resources */,
+				178CA1C4238CCBD500D757FA /* com.baidu.idl.face.model.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178CA14F238B82DB00D757FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CA15B238B82DB00D757FA /* ViewController.m in Sources */,
+				178CA1B2238CC97A00D757FA /* KYELivenessView.m in Sources */,
+				178CA1AC238BE43B00D757FA /* KYEFaceBaseView.m in Sources */,
+				178CA1D0238D23D100D757FA /* KYEBrightness.m in Sources */,
+				178CA166238B82DB00D757FA /* main.m in Sources */,
+				178CA1A9238BE36D00D757FA /* VideoCaptureDevice.m in Sources */,
+				178CA1A1238BE34C00D757FA /* LivingConfigModel.m in Sources */,
+				178CA1CB238D087F00D757FA /* CircleView.m in Sources */,
+				178CA1C8238CD78200D757FA /* RemindView.m in Sources */,
+				178CA1A8238BE36D00D757FA /* ImageUtils.m in Sources */,
+				178CA158238B82DB00D757FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		178CA15C238B82DB00D757FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178CA15D238B82DB00D757FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178CA161238B82DB00D757FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178CA162238B82DB00D757FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178CA167238B82DB00D757FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		178CA168238B82DB00D757FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178CA16A238B82DB00D757FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52D3AQ3XY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceSDK",
+				);
+				INFOPLIST_FILE = faceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = face.test.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178CA16B238B82DB00D757FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52D3AQ3XY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceSDK",
+				);
+				INFOPLIST_FILE = faceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = face.test.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178CA14E238B82DB00D757FA /* Build configuration list for PBXProject "faceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178CA167238B82DB00D757FA /* Debug */,
+				178CA168238B82DB00D757FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178CA169238B82DB00D757FA /* Build configuration list for PBXNativeTarget "faceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178CA16A238B82DB00D757FA /* Debug */,
+				178CA16B238B82DB00D757FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178CA14B238B82DB00D757FA /* Project object */;
+}
